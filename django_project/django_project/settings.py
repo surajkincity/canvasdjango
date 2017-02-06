@@ -25,7 +25,7 @@ SECRET_KEY = 'ib3^gd2-c!g3lpxqop9ob$&mj8ppjychezp6zew*$#rmn%5hjs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*','mycanvas.co.in']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -119,4 +119,4 @@ def ip_addresses():
     return ip_list
 
 # Discover our IP address
-ALLOWED_HOSTS = ip_addresses()
+#ALLOWED_HOSTS = ip_addresses()
