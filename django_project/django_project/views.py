@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def hello(request):
-    return HttpResponse("Hello world, this is hello world")
+def home(request):
+    return render(request, 'index.html', {'this': this})
