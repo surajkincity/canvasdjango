@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, 'home.html', )
+    return render(request, 'index.html', )
 
 def css(request):
     return render(request, 'main.css', )
