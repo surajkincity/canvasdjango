@@ -1,9 +1,10 @@
 
 from django.conf.urls import include, url
 from django.contrib import admin
-from django_project.views import home
+from django_project.views import hello css
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', home),
+    url(r'^$', hello),
+    url(r'^main.css$', css),
 ]
