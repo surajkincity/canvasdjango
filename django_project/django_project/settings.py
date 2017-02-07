@@ -101,6 +101,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+
 STATIC_ROOT = "/home/django/django_project/static"
 
 STATICFILES_DIRS = (
