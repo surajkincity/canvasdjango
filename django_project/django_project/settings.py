@@ -103,6 +103,9 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = "/home/django/django_project/static"
 
+STATICFILES_DIRS = (
+    os.path.join(PROJECT_ROOT,'static'),
+)
 
 
 MEDIA_ROOT = ''
