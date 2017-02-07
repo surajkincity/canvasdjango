@@ -105,9 +105,6 @@ STATIC_ROOT = "/home/django/django_project/static"
 
 
 
-
-STATIC_ROOT =''
-
 MEDIA_ROOT = ''
 
 MEDIA_URL = '/media/'
