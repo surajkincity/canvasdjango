@@ -6,6 +6,6 @@ from django_project.views import home
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', home),
-    static(settings.STATIC_URL,document_root=settings.STATIC_ROOT) 
+    
 
 ]
