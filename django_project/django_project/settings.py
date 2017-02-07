@@ -106,6 +106,8 @@ STATICFILES_DIRS = [
     '/home/django/django_project/static/',
 ]
 
+STATIC_ROOT = "/home/django/django_project/static/"
+
 
 MEDIA_ROOT = ''
 
