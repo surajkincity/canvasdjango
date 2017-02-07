@@ -118,5 +118,9 @@ def ip_addresses():
                 ip_list.append(addrs[x][0]['addr'])
     return ip_list
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    '/var/www/static/',
+]
 # Discover our IP address
 #ALLOWED_HOSTS = ip_addresses()
