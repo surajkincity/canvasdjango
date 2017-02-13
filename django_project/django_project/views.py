@@ -6,3 +6,6 @@ from django.templatetags.static import static
 
 def home(request):
     return render(request, 'index.html', )
+
+def css(request):
+    return render(request, 'main.css', )
