@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <style>
       .navbar-default{background-image: none;border: 0px;background-color: rgba(0, 0, 0, .4); padding-bottom: 5px;}
+      .landing form input{padding:10px;border-radius: 4px;border: 0px;font-style: 20px;}
+      .landing form button{padding: 9px 30px; border: 0px;}
 
     </style>
   </head>
@@ -53,18 +55,11 @@
 
 
 
-               <form  class="form-inline cta" action="" method="POST" enctype="multipart/form-data" >
-
-           <input type="hidden" name="action" value="Send">
-
-           <input type="text" class="form-control" id="exampleInputEmail1" name='website' placeholder="Name" style="    display: inline;padding:20px;">
-           <input type="text" class="form-control" id="exampleInputEmail1" name='email' placeholder="Mobile" style="    display: inline;width:199px;padding:20px;margin-right: 5px;">
-
-                       <button type="submit" class="btn btn-success" style="padding:10px;"> <b>Get Quote</b> </button>
-
-
-
-</form>
+           <form>
+             <input placeholder="Name"></input>
+             <input placeholder="Mobile"></input>
+             <button class="btn btn-success" >Send</button>
+           </form>
          </div>
        </div>
      </div>
