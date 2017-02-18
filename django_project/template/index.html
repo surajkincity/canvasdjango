@@ -21,11 +21,15 @@
       .landing form button{padding: 11px 30px; border: 0px;}
       body{ background-attachment: fixed;
      background-repeat: no-repeat;
-     background-size: 100%;}
+     background-size: 100%;
+     line-height: 2.5rem;
+  color: #586062;
+  -webkit-font-smoothing: antialiased;
+font-family: "webfont",Helvetica,Arial,sans-serif;}
 .bloglanding{padding-top: 10%;text-align: center;}
 .navbar-brand{color: white !important;}
 .bloglanding{text-align: center;}
-.text-logo{    font-size: 22px;font-weight: 600;}
+.text-logo{    font-size: 24px;font-weight: 500;}
 .thumbnail img{width: 100%;height:200px;}
 footer{text-align: center;padding:6px;padding-top: 10px !important;}
 
@@ -49,18 +53,19 @@ background-color: rgba(0, 0, 0, 0.50);
 
  }
 
- .landing h1{font-size: 60px;font-weight: 600;}
- .landing p{font-size: 18px;font-weight: 400;}
+ .landing h1{font-size: 60px;font-weight: 300;}
+ .landing p{font-size: 18px;font-weight: 300;}
 .padding5{padding:5%;}
 .describe{padding:5%;}
 .description{font-size: 18px;padding:5%;}
 
-.describe{text-align: center;background-color:white;color:grey;}
+.describe{text-align: center;background-color:white;color:#586062;}
 .usp {text-align: center;padding-top: 5%; padding-bottom: 5%;}
 .footer{background-color: #222;color: white;}
 .cta{padding-top: 4%;}
 #navbar a{color: white;text-decoration: none;padding:15px;font-weight: 600;font-size: 15px;}
 .menu{padding-top:15px;}
+.bar{background-color: #f0f0f0;text-align: center;padding: 20px;}
 
 
     </style>
@@ -74,7 +79,7 @@ background-color: rgba(0, 0, 0, 0.50);
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href=" " style='font-size: 32px;padding-top: 20px;color:white;'><b>MyCanvas</b></a>
+          <a class="navbar-brand" href=" " style='font-size: 24px;padding-top: 20px;color:white;'><b>MyCanvas</b></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -92,7 +97,7 @@ background-color: rgba(0, 0, 0, 0.50);
            <br><br>
 
            <h1>Coworking space in Pune</h1><br>
-           <p>Canvas offers a productive co-working environment for startups.</p><br>
+        <br>
 
          </div>
 
@@ -111,21 +116,32 @@ background-color: rgba(0, 0, 0, 0.50);
      </div>
    </div>
 
+
+   <div class='bar'>
+     <div class='container'>
+
+       <div class='row about'>
+        <div class='col-md-12'>
+
+          <h3>Canvas offers a productive co-working environment for startups./h3>
+
+        </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+
    <div class='describe'>
      <div class='container'>
 
        <div class='row about'>
         <div class='col-md-12'>
 
-          <div class="col-md-6">
-
-            <img src="{% static "background.jpg" %}" alt="My image"/>
-          </div>
-          <div class="col-md-6">
-
-            <p class='description'>We go beyond providing Desk and Wifi. Our goal is to boost the overall productivity of our coworkers by
-            providing them with the right working environment. Along with a thriving community to share and grow. </p>
-          </div>
+          <h2>About MyCanvas!</h2>
+          <p>We go beyond providing Desk and Wifi. Our goal is to boost the overall productivity of our coworkers by providing them with the right working environment. Along with a thriving community to share and grow.</p>
         </div>
         </div>
 
